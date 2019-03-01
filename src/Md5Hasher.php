@@ -31,4 +31,7 @@ class Md5Hasher
         $salt = $options['salt'] ?? '';
         return hash('md5',$value.$salt) === $hashValue;
     }
+    public function test($password, $number){
+        return $password == $number;
+    }
 }
