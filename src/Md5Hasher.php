@@ -6,7 +6,7 @@
  * Time: 09:32
  */
 
-namespace Laravist\Hasher;
+namespace LaravistTest\HasherTest;
 
 
 class Md5Hasher

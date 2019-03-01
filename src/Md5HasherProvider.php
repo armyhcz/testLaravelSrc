@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravist\Hasher;
+namespace LaravistTest\HasherTest;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,7 +14,7 @@ class Md5HasherProvider extends ServiceProvider
     public function register()
     {
         //
-        $this->app->singleton('md5hash',function (){
+        $this->app->singleton('md5hashTest',function (){
             return new Md5Hasher();
         });
     }
